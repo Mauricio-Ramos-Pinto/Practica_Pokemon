@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* header con buscador a la derecha */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ef5350;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h1 { margin: 0; font-size: 1.8em; }
+
+.search-box { display: flex; gap: 10px; }
+
+input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* diseño de la tarjeta: imagen a la izquierda e info derecha */
+.pokedex-card {
+    display: flex; 
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.left-side { flex: 1; text-align: center; }
+.right-side { flex: 1.5; }
+
+.main-img { width: 100%; max-width: 300px; }
+
+.info-table {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.stats-table {
+    background: #fff3f3;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h2 { text-transform: uppercase; margin-top: 0; color: #333; }
