@@ -1,0 +1,81 @@
+/* Configuración general */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Tarjeta principal */
+.card {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid #333;
+}
+
+h1 { 
+    color: #ff5252; 
+    font-size: 1.5rem; 
+}
+
+/* Estilo del texto del endpoint */
+.endpoint {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #4af626;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+/* Botón interactivo */
+button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff1744;
+    transform: scale(1.02);
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Contenedor de respuesta */
+#resultado {
+    margin-top: 25px;
+    padding: 15px;
+    border-left: 4px solid #ff5252;
+    background-color: #252525;
+    min-height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.status {
+    font-size: 0.7rem;
+    color: #888;
+    margin-top: 10px;
+}
